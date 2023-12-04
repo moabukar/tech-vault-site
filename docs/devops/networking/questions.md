@@ -10,6 +10,7 @@ HTTPS is an extension of the Hypertext Transfer Protocol. The S in HTTPS stands 
 Basically, it’s HTTP with encryption. It is used to secure communication over a computer network and is widely used on the Internet. HTTPS encrypts and decrypts user page requests and the pages returned by the web server.<br><br>
 
 </details>
+<br>
 
 <details>
 <summary>Difference between HTTP and HTTPS?</summary>
@@ -18,8 +19,8 @@ The most significant difference between the two protocols is that HTTPS is encry
 
 Another difference between the protocols is that HTTPS uses port 443, while HTML uses port 80. Port 443 is the standard port for secured Hypertext Transfer Protocol (HTTPS). Port 80 is the default port for unsecured Hypertext Transfer Protocol.<br><br>
 
-
 </details>
+<br>
 
 <details>
 <summary>How does a typical HTTP request look like?</summary>
@@ -35,6 +36,7 @@ Each HTTP request made across the Internet carries with it a series of encoded d
 5) Optional HTTP body<br><br>
 
 </details>
+<br>
 
 <details>
 <summary>What is an HTTP method?</summary>
@@ -42,6 +44,7 @@ Each HTTP request made across the Internet carries with it a series of encoded d
 An HTTP method, sometimes referred to as an HTTP verb, indicates the action that the HTTP request expects from the queried server. For example, two of the most common HTTP methods are ‘GET’ and ‘POST’; a ‘GET’ request expects information back in return (usually in the form of a website), while a ‘POST’ request typically indicates that the client is submitting information to the web server (such as form information, e.g. a submitted username and password).
 
 </details>
+<br>
 
 <details>
 <summary>What are HTTP request headers?</summary>
@@ -49,6 +52,7 @@ An HTTP method, sometimes referred to as an HTTP verb, indicates the action that
 HTTP headers contain text information stored in key-value pairs, and they are included in every HTTP request. These headers communicate core information, such as what browser the client is using and what data is being requested.
 
 </details>
+<br>
 
 <details>
 <summary>What is in an HTTP request body?</summary>
@@ -56,6 +60,7 @@ HTTP headers contain text information stored in key-value pairs, and they are in
 The body of a request is the part that contains the ‘body’ of information the request is transferring. The body of an HTTP request contains any information being submitted to the web server, such as a username and password, or any other data entered into a form.
 
 </details>
+<br>
 
 <details>
 <summary>What is in an HTTP response?</summary>
@@ -69,6 +74,7 @@ A typical HTTP response contains:<br><br>
 3) Optional HTTP body<br><br>
 
 </details>
+<br>
 
 <details>
 <summary>What’s an HTTP status code?</summary>
@@ -88,6 +94,7 @@ Status codes starting with the number ‘2’ indicate a success. For example, a
 If the response starts with a ‘4’ or a ‘5’ that means there was an error and the webpage will not be displayed. A status code that begins with a ‘4’ indicates a client-side error (it is very common to encounter a ‘404 NOT FOUND’ status code when making a typo in a URL). A status code beginning in ‘5’ means something went wrong on the server side. Status codes can also begin with a ‘1’ or a ‘3’, which indicate an informational response and a redirect, respectively.
 
 </details>
+<br>
 
 <details>
 <summary>What are HTTP response headers?</summary>
@@ -95,6 +102,7 @@ If the response starts with a ‘4’ or a ‘5’ that means there was an error
 Much like an HTTP request, an HTTP response comes with headers that convey important information such as the language and format of the data being sent in the response body.
 
 </details>
+<br>
 
 <details>
 <summary>What is in an HTTP response body?</summary>
@@ -102,6 +110,7 @@ Much like an HTTP request, an HTTP response comes with headers that convey impor
 Successful HTTP responses to ‘GET’ requests generally have a body which contains the requested information. In most web requests, this is HTML data that a web browser will translate into a webpage.
 
 </details>
+<br>
 
 <details>
 <summary>TCP vs UDP</summary>
@@ -111,6 +120,7 @@ Protocols are rules that govern how data is formatted and sent over a network. T
 The main difference between TCP (transmission control protocol) and UDP (user datagram protocol) is that TCP is a connection-based protocol and UDP is connectionless. While TCP is more reliable, it transfers data more slowly. UDP is less reliable but works more quickly. This makes each protocol suited to different types of data transfers.<br><br>
 
 </details>
+<br>
 
 <details>
 <summary>What is DNS?</summary>
@@ -118,6 +128,7 @@ The main difference between TCP (transmission control protocol) and UDP (user da
 The process of DNS resolution involves converting a hostname (such as www.google.com) into a computer-friendly IP address (such as 192.168.1.1). An IP address is given to each device on the Internet, and that address is necessary to find the appropriate Internet device - like a street address is used to find a particular home. When a user wants to load a webpage, a translation must occur between what a user types into their web browser (example.com) and the machine-friendly address necessary to locate the example.com webpage.
 
 </details>
+<br>
 
 <details>
 <summary>How does DNS work?</summary>
@@ -139,6 +150,7 @@ DNS (Domain Name System) works by translating human-friendly domain names (like 
 - In essence, DNS acts as the internet's phone book, translating user-friendly domain names into the numerical addresses computers need to communicate.
 
 </details>
+<br>
 
 <details>
 <summary>What is TLS?</summary>
@@ -146,6 +158,7 @@ DNS (Domain Name System) works by translating human-friendly domain names (like 
 TLS (Transport Layer Security) is a cryptographic protocol that provides secure communication over a computer network, such as the internet. It ensures data privacy and integrity by encrypting the data transmitted between two systems, typically a web browser and a web server. TLS is commonly used to secure online transactions, like credit card payments and sensitive data transfers, by establishing a secure, encrypted connection between the client and server. This encryption helps protect against eavesdropping and data tampering during transmission.
 
 </details>
+<br>
 
 <details>
 <summary>What are CIDR ranges?</summary>
@@ -159,6 +172,7 @@ In this example, "/24" means that the first 24 bits of the IP address are used t
 CIDR notation is widely used in networking to specify IP address ranges, making it easier to manage and allocate IP addresses efficiently.
 
 </details>
+<br>
 
 <details>
 <summary>What is ingress and egress traffic?</summary>
@@ -172,6 +186,7 @@ In networking and security, "ingress" and "egress" refer to the movement of data
 In summary, ingress traffic comes into a network, while egress traffic goes out of it. Network administrators often use firewall rules and security measures to control and secure both ingress and egress traffic to protect the network from threats and ensure proper data flow.
 
 </details>
+<br>
 
 <details>
 <summary>What is a switch vs a hub?</summary>
@@ -201,6 +216,7 @@ Hubs are considered outdated and inefficient for modern networks, and they are r
 In summary, switches are more advanced and efficient networking devices that intelligently forward data packets to the appropriate recipient, while hubs are basic and outdated devices that broadcast data to all connected devices, leading to less efficient network communication. Switches are the preferred choice for building modern, high-performance LANs.
 
 </details>
+<br>
 
 <details>
 <summary>What is a switch vs a router?</summary>
@@ -228,6 +244,7 @@ Routers are essential for interconnecting multiple LANs and facilitating communi
 In summary, switches are used for local network traffic management within a single LAN, while routers are used to connect and route traffic between different networks, including routing traffic between LANs and the broader internet. Both devices play critical roles in network communication and connectivity.
 
 </details>
+<br>
 
 <details>
 <summary>What is HTTPS vs Websockets?</summary>
@@ -252,6 +269,7 @@ Unlike HTTP(S), which is request-response-based and stateless, WebSockets allow 
 In summary, HTTPS is a protocol for securing web communication, while WebSockets provide a framework for real-time, bidirectional communication over a single, long-lived connection. They are used for different purposes but can complement each other in web applications, where secure and real-time communication is required.
 
 </details>
+<br>
 
 <details>
 <summary>Explain how a 3 way handshake works?</summary>
@@ -259,6 +277,7 @@ In summary, HTTPS is a protocol for securing web communication, while WebSockets
 A three-way handshake is a method used in a TCP/IP network to create a connection between a host and a client. It’s called a three-way handshake because it is a three-step method in which the client and server exchanges packets. The three steps are as follows: The client sends a SYN(Synchronize) packet to the server check if the server is up or has open ports. The server sends SYN-ACK packet to the client if it has open ports. The client acknowledges this and sends an ACK(Acknowledgment) packet back to the server.
 
 </details>
+<br>
 
 <details>
 <summary>Stateless vs Stateful firewalls?</summary>
@@ -284,6 +303,7 @@ They do not maintain any information about the state of ongoing network connecti
 In summary, stateless firewalls filter traffic based solely on basic information like IP addresses and port numbers, while stateful firewalls maintain information about the state of active connections and make decisions based on the context of the traffic. Stateful firewalls are generally more advanced and provide better security for modern network environments.
 
 </details>
+<br>
 
 <details>
 <summary>What are VPCs?</summary>
@@ -299,6 +319,7 @@ VPC stands for Virtual Private Cloud. It is a fundamental component of cloud com
 - VPCs are essential for ensuring network isolation, security, and resource organization in cloud environments.
 
 </details>
+<br>
 
 <details>
 <summary>What is subnetting?</summary>
@@ -317,8 +338,8 @@ Subnetting involves dividing an IP address range into smaller, contiguous blocks
 
 For example, if you have the IP address range 192.168.0.0/24 (where "/24" indicates a subnet mask of 255.255.255.0), you can subnet it into smaller subnets like 192.168.0.0/25 and 192.168.0.128/25, each with half of the original IP address range's available host addresses.
 
-
 </details>
+<br>
 
 <details>
 <summary>What is DHCP?</summary>
@@ -335,6 +356,7 @@ DHCP stands for Dynamic Host Configuration Protocol. It is a network protocol us
 - The client then configures itself with the provided information, making it ready to communicate on the network.
 
 </details>
+<br>
 
 #### Advanced + Scenario based questions:
 
@@ -385,6 +407,7 @@ Once all resources are loaded, your web browser displays the Google homepage on 
 In summary, when you type "google.com" into your browser, a complex series of steps involving DNS resolution, HTTP requests, and server responses occurs to retrieve and display the webpage you requested. This process ensures that you can access websites using human-readable domain names while the internet works behind the scenes using IP addresses to route and deliver content.
 
 </details>
+<br>
 
 <details>
 <summary>I can't reach a website, how can I troubleshoot? (use deep Linux + networking knowledge)</summary>
@@ -443,6 +466,7 @@ It's possible that the website itself is down. Check its status on a service lik
 - As a last resort, you can use packet capture tools like `tcpdump` or `wireshark` to capture network traffic and analyze it for issues.
 
 </details>
+<br>
 
 <details>
 <summary>Can you break down the OSI model and what does it signify?</summary>
@@ -485,6 +509,7 @@ Significance: The application layer is the top layer and represents the actual s
 Responsibilities: It provides a platform-independent interface for application software to communicate with the lower layers. This layer includes protocols like HTTP, FTP, SMTP, and DNS, which enable specific application-level functions.
 
 </details>
+<br>
 
 <details>
 <summary>How does mTLS work and compare it to TLS?</summary>
@@ -511,6 +536,7 @@ mTLS (mutual Transport Layer Security) is an extension of the traditional TLS (T
 In summary, TLS and mTLS are both cryptographic protocols for securing data transmission, but mTLS goes a step further by requiring mutual authentication, where both the client and server authenticate each other using digital certificates. This added layer of security is useful in scenarios where bidirectional trust is essential, such as in securing APIs, web services, or IoT device communication.
 
 </details>
+<br>
 
 <details>
 <summary>Describe the TCP/IP connection process?</summary>
@@ -552,6 +578,7 @@ ACK: The initial party acknowledges the FIN from the other side, completing the 
 After the four-way handshake, the connection is closed, and no further data can be exchanged.
 
 </details>
+<br>
 
 <details>
 <summary>When and why would one use a TCP over UDP?</summary>
@@ -585,6 +612,7 @@ TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are two tra
 In summary, use TCP when data reliability, ordered delivery, and error recovery are critical. Choose UDP when low latency, reduced overhead, and loss tolerance are more important, and you can handle potential data loss or out-of-order delivery at the application level. The decision depends on the specific needs of your application and the trade-offs you are willing to make between reliability and performance.
 
 </details>
+<br>
 
 <details>
 <summary>Data transfer between 2 hosts is extremely slow. How can you troubleshoot?</summary>
@@ -615,3 +643,4 @@ Try transferring data between each host and other devices on the network to dete
 
 
 </details>
+<br>
