@@ -32,3 +32,4 @@ regex>=2022.4
 requests~=2.26
 mkdocs-gitbook==0.0.1 ## Gitbook theme for MKDocs
 mkdocs-cinder==1.2.0 ## Cinder theme for MKDocs
+cairocffi==1.6.1
