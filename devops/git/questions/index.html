@@ -1,0 +1,774 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Questions - Tech Vault</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        <link rel="canonical" href="https://moabukar.github.io/tech-vault-site/devops/git/questions/">
+        <meta name="author" content="Mo Abukar">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../assets/css/dracula-ui.css">
+        <link rel="stylesheet" href="../../../assets/css/mkdocs.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Tech Vault</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Home
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class=" active 
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#devops-collapse" aria-expanded="false">
+                    DevOps
+                </a>
+                <div class="collapse" id="devops-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#linux-collapse" aria-expanded="false">
+            Linux
+        </a>
+
+        <div class="collapse" id="linux-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../linux/questions/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Questions
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#networking-collapse" aria-expanded="false">
+            Networking
+        </a>
+
+        <div class="collapse" id="networking-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../networking/questions/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Questions
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#git-collapse" aria-expanded="false">
+            Git
+        </a>
+
+        <div class="collapse" id="git-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="./"
+            class=" active 
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Questions
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#aws-collapse" aria-expanded="false">
+            AWS
+        </a>
+
+        <div class="collapse" id="aws-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../aws/questions/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Questions
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#azure-collapse" aria-expanded="false">
+            Azure
+        </a>
+
+        <div class="collapse" id="azure-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../azure/questions/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Questions
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#terraform-collapse" aria-expanded="false">
+            Terraform
+        </a>
+
+        <div class="collapse" id="terraform-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../terraform/questions/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Questions
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#docker-&-k8s-collapse" aria-expanded="false">
+            Docker & K8s
+        </a>
+
+        <div class="collapse" id="docker-&-k8s-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../docker-k8s/questions/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Questions
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#ansible-collapse" aria-expanded="false">
+            Ansible
+        </a>
+
+        <div class="collapse" id="ansible-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../ansible/questions/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Questions
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#cicd-collapse" aria-expanded="false">
+            CICD
+        </a>
+
+        <div class="collapse" id="cicd-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../cicd/questions/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Questions
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#devops-methodology-collapse" aria-expanded="false">
+            DevOps Methodology
+        </a>
+
+        <div class="collapse" id="devops-methodology-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../methodology/questions.md"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Questions
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#monitoring-collapse" aria-expanded="false">
+            Monitoring
+        </a>
+
+        <div class="collapse" id="monitoring-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../monitoring/questions/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Questions
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#system-design-collapse" aria-expanded="false">
+                    System Design
+                </a>
+                <div class="collapse" id="system-design-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../system-design/cdn-caching.md"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            CDN & Caching
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../../system-design/database.md"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Database
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#software-engineering-collapse" aria-expanded="false">
+                    Software Engineering
+                </a>
+                <div class="collapse" id="software-engineering-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#general-collapse" aria-expanded="false">
+            General
+        </a>
+
+        <div class="collapse" id="general-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../../software-engineering/general/questions/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Questions
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#golang-collapse" aria-expanded="false">
+            Golang
+        </a>
+
+        <div class="collapse" id="golang-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../../software-engineering/golang/questions/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Questions
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#python-collapse" aria-expanded="false">
+            Python
+        </a>
+
+        <div class="collapse" id="python-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../../software-engineering/python/questions/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Questions
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#java-collapse" aria-expanded="false">
+            Java
+        </a>
+
+        <div class="collapse" id="java-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../../software-engineering/java/questions/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Questions
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="#" class="
+            drac-anchor-secondary btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+            data-bs-toggle="collapse" data-bs-target="#javascript-collapse" aria-expanded="false">
+            JavaScript
+        </a>
+
+        <div class="collapse" id="javascript-collapse">
+            <ul class="mb-5 drac-list drac-list-none">
+                    
+    <li class="drac-box-ternary">
+        <a href="../../../software-engineering/javascript/questions.md"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Questions
+        </a>
+    </li>
+            </ul>
+        </div>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../../../CONTRIBUTING/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Contribute
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../../CODE_OF_CONDUCT/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Code of Conduct
+                </a>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple"">
+        <div class="container-fluid">
+
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+        <div class="container">
+            <div class="row row-preview">
+                <div class="col">
+                    <a href="../../networking/questions/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="../../aws/questions/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover" style="padding-left: 3%;">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                            
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><details>
+<summary>What is Git?</summary>
+
+Most widely used modern version control system in the world today. It is used to gather code contributions from multiple users in a single place (repository). Provides full history, workflow and allows for rollback of code and patching.
+
+</details>
+<p><br></p>
+<details>
+<summary>Difference between Git and SVN?</summary>
+
+SVN and Git are both powerful version control systems that each use a different approach to managing and merging code changes. Git uses a distributed model, whereas SVN uses a centralized model.<br><br>
+
+SVN’s centralized repository model makes it easier to manage contributions and contributors. Git does not support codebase access restrictions — a contributor who has access to the repository has access to the entire repository. SVN, by contrast, provides granular control, allowing for limits on particular contributors down to the directory, and file levels.<br><br>
+
+The ability to work locally and offline is one major advantage to Git. SVN requires contributors to be connected to the main repository server, which essentially eliminates working offline.<br><br>
+
+Git also outperforms SVN when it comes to merging and conflict resolution. Git has been designed for an open-source setting where numerous contributors may be working on the same parts of a codebase. To allow for this type of collaboration, Git has built up a robust system for resolving merge conflicts that makes the process smoother, and more manageable.
+
+</details>
+<p><br></p>
+<details>
+<summary>What is the basic Git workflow?</summary>
+
+Working directory >   staging area >  local repo >   remote repo
+            git add           git commit    git push 
+
+</details>
+<p><br></p>
+<details>
+  <summary>Difference between git pull and Git fetch</summary>
+
+The key difference between git fetch and pull is that git pull copies changes from a remote repository directly into your working directory, while git fetch does not. The git fetch command only copies changes into your local Git repo. The git pull command does both.<br><br>
+
+Benefit of git pull: The local Git repo is now in sync with the remote repo. The local filesystem has the latest, most up to date files.<br><br>
+
+Benefit of git fetch: If you are actively working on files tracked by Git, but you still want to update your local repository with the latest changes from a remote repository, use the git fetch command.
+
+</details>
+<p><br></p>
+<details>
+<summary>What is git cherry-pick?</summary>
+
+git cherry-pick is a Git command used to apply a specific commit (or a range of commits) from one branch to another. It allows you to select and "cherry-pick" individual commits from one branch's history and apply them onto another branch. This can be useful when you want to bring specific changes or fixes from one branch into another without merging the entire branch.<br><br>
+
+The basic syntax of git cherry-pick is as follows:<br><br>
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git<span class="w"> </span>cherry-pick<span class="w"> </span>&lt;commit-hash&gt;
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>&lt;commit-hash&gt;<span class="w"> </span>is<span class="w"> </span>the<span class="w"> </span>unique<span class="w"> </span>identifier<span class="w"> </span><span class="o">(</span>SHA-1<span class="w"> </span><span class="nb">hash</span><span class="o">)</span><span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>commit<span class="w"> </span>you<span class="w"> </span>want<span class="w"> </span>to<span class="w"> </span>apply.
+</code></pre></div>
+
+</details>
+<p><br></p>
+<details>
+<summary>What is the HEAD in Git?</summary>
+
+
+In Git, HEAD is a pointer to the latest commit in the currently checked-out branch. It represents the current state of the branch and is used for navigating the commit history and tracking changes. When in a "detached" state, HEAD points directly to a specific commit.
+
+</details>
+<p><br></p>
+<details>
+<summary>When do I use Git stash?</summary>
+
+You use git stash in Git when you need to temporarily save changes in your working directory without committing them. This is typically done in scenarios where you want to switch to a different branch, pull changes from a remote repository, or perform some other operation that requires a clean working directory<br><br>
+
+Here are common situations when you should use git stash:<br>
+
+**Switching Branches**: When you're working on one branch and need to switch to another, but you have uncommitted changes in your working directory. Using git stash allows you to save those changes, switch branches, and then later apply the changes to the new branch.<br><br>
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git<span class="w"> </span>stash<span class="w">        </span><span class="c1"># Save changes</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>git<span class="w"> </span>checkout<span class="w"> </span>another-branch<span class="w">   </span><span class="c1"># Switch branches</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>git<span class="w"> </span>stash<span class="w"> </span>apply<span class="w">  </span><span class="c1"># Apply saved changes to the new branch</span>
+</code></pre></div>
+<br>
+
+**Pulling or Fetching Changes**: Before pulling or fetching changes from a remote repository, you can stash your local changes to ensure a clean working directory. This helps prevent conflicts that might arise when Git tries to merge the incoming changes with your local modifications.<br><br>
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>git<span class="w"> </span>stash<span class="w">        </span><span class="c1"># Save changes</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>git<span class="w"> </span>pull<span class="w"> </span>origin<span class="w"> </span>main<span class="w">   </span><span class="c1"># Pull changes from the remote</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>git<span class="w"> </span>stash<span class="w"> </span>apply<span class="w">  </span><span class="c1"># Apply saved changes to your working directory</span>
+</code></pre></div>
+<br>
+
+**Temporary Changes**: If you're working on a feature but need to make a quick fix or test something unrelated, you can stash your current changes before making the temporary changes. Afterward, you can apply the stashed changes back.<br><br>
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git<span class="w"> </span>stash<span class="w">        </span><span class="c1"># Save feature changes</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="c1"># Make and test quick fix or unrelated changes</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>git<span class="w"> </span>stash<span class="w"> </span>apply<span class="w">  </span><span class="c1"># Apply saved feature changes back</span>
+</code></pre></div>
+<br>
+
+**Resolving Conflicts**: When resolving merge or rebase conflicts, git stash can help. You can stash your changes, then perform the merge or rebase. After resolving conflicts, you can apply your stashed changes again.<br>
+
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>git<span class="w"> </span>stash<span class="w">        </span><span class="c1"># Save changes</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="c1"># Resolve conflicts during merge or rebase</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>git<span class="w"> </span>stash<span class="w"> </span>apply<span class="w">  </span><span class="c1"># Apply saved changes after conflicts are resolved</span>
+</code></pre></div>
+
+</details>
+<p><br></p>
+<details>
+<summary>What does git reset do?</summary>
+
+`git reset` is a Git command used to move the HEAD and optionally the index (staging area) to a specified commit. It has different modes, including soft (moves HEAD only), mixed (default, moves HEAD and unstages changes), and hard (moves HEAD, unstages changes, and discards changes in the working directory). You can use it to unstage changes, move the branch pointer, undo commits, and amend the last commit. Use it carefully as it can affect commit history.<br><br>
+
+Here are the primary functions of `git reset`:
+
+- Unstaging Changes<br>
+- Moving the HEAD<br>
+- Undoing Commits: git reset<br>
+- Mixed-Mode for Amend<br>
+
+
+</details>
+<p><br></p>
+<details>
+<summary>What is Git fork? What is difference between git fork, clone and branch?</summary>
+
+- **Git Fork**: Creating a copy of a repository on a Git hosting platform, often for collaborative contributions.
+- **Git Clone**: Creating a local copy of a Git repository from a remote, enabling local development.
+- **Git Branch**: Creating separate lines of development within a repository, typically for features or bug fixes.
+
+</details>
+<p><br></p>
+<details>
+  <summary>What is difference between `git stash pop` and `git stash apply`?</summary>
+
+- `git stash pop` applies and removes the most recent stash.
+- `git stash apply` applies the most recent stash but leaves it in the stash list for future use or reference.git stash pop applies and removes the most recent stash.
+
+</details>
+<p><br></p>
+<h4 id="advanced">Advanced:</h4>
+<details>
+<summary>I need to update my local repos, what commands do I use?</summary>
+
+
+- Use `git fetch` to retrieve remote changes.
+- Choose to merge with `git merge` or rebase with `git rebase`.
+- Resolve conflicts if any.
+- Optionally, push local changes with git push to update the remote repository.
+
+</details>
+<p><br></p>
+<details>
+<summary>I need to rollback to a previous commit and I don't need my recent changes, what do I use?</summary>
+
+- `git reset --hard <commit>`
+
+</details>
+<details>
+<summary>How can I amend an older commit?</summary>
+
+- Use `git rebase -i <commit>~1` to start an interactive rebase.
+- Change "pick" to "edit" for the commit you want to amend.
+- Make your changes and stage them with `git add .`
+- Use `git commit --amend` to update the commit.
+- Continue the rebase with `git rebase --continue`
+
+</details>
+<p><br></p>
+<details>
+<summary>What is the command to check the difference between two commits?</summary>
+
+`git diff <commit1> <commit2>`
+
+
+</details>
+<p><br></p>
+<details>
+<summary>When do you use `git rebase` instead of `git merge`?</summary>
+
+- Use `git rebase` instead of `git merge` when you want to create a cleaner, linear commit history, squash commits, or integrate changes from one branch into another. Use `git merge` when preserving the branch's history is more important, especially in collaborative scenarios.
+
+</details>
+<p><br></p>
+<details>
+<summary>Do you know how to undo a git rebase?</summary>
+
+- Use `git reflog` to find the commit hash before the rebase.
+- Run `git reset --hard <commit-hash>` to reset your branch to that commit.
+- Optionally, force push to update the remote branch if necessary.
+
+</details>
+<p><br></p>
+<details>
+<summary>How do you bring down updates from main branch if your local branch becomes stale?</summary>
+
+- Use `git checkout <branch-name>` to switch to your local branch.
+- Run `git fetch` to get the latest changes from the remote repository.
+- Choose either `git merge main` or `git rebase main` to integrate the updates (pick one based on your workflow).
+- Resolve any conflicts if they arise during the merge or rebase.
+- Test your branch thoroughly to ensure it works with the latest changes.
+- Commit and push your changes if necessary (`git commit` and `git push origin <branch-name>`).
+
+</details>
+<p><br></p></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../../..';</script>
+        <script src="../../../assets/js/jquery-3.3.1.slim.min.js""></script>
+        <script src="../../../assets/js/bootstrap.bundle.min.js""></script>
+        <script src="../../../assets/js/mkdocs.js""></script>
+			<script src="../../../assets/js/hljs/highlight.pack.js" defer></script>
+			<script src="../../../assets/js/extra.js" defer></script>
+			<script src="../../../search/main.js" defer></script>
+
+</body>
+
+</html>
