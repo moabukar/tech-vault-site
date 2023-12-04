@@ -1,6 +1,6 @@
-# Learn UNIX & Networking
+# Tech Vault
 
--  Learn Linux in a simple and fun way.
+-  A documentation of carefully curated technical engineering questions & challenges by experienced Engineers who have conducted many interviews. These are amongst popular and important engineering questions to test knowledge of candidates in interviews.
 
 ## DevOps
 
