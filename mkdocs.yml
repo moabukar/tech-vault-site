@@ -10,7 +10,7 @@ theme:
   # name: material
   # name: dracula
   # name: gitbook
-  name: cinder
+  name: dracula
   include_sidebar: true
   # custom_dir: overrides
   extra_css:
