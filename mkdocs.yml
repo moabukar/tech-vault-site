@@ -9,7 +9,8 @@ docs_dir: docs
 theme: 
   # name: material
   # name: dracula
-  name: gitbook
+  # name: gitbook
+  name: cinder
   include_sidebar: true
   # custom_dir: overrides
   extra_css:
