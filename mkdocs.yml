@@ -80,10 +80,38 @@ nav:
         - Questions: devops/linux/questions.md
     - Networking:
         - Questions: devops/networking/questions.md
+    - Git:
+        - Questions: devops/git/questions.md
+    - AWS:
+        - Questions: devops/aws/questions.md
+    - Azure:
+        - Questions: devops/azure/questions.md
+    - Terraform:
+        - Questions: devops/terraform/questions.md
+    - Docker & K8s:
+        - Questions: devops/docker-k8s/questions.md
+    - Ansible:
+        - Questions: devops/ansible/questions.md
+    - CICD:
+        - Questions: devops/cicd/questions.md
+    - DevOps Methodology:
+        - Questions: devops/methodology/questions.md
+    - Monitoring:
+        - Questions: devops/monitoring/questions.md
 - System Design:
     - CDN & Caching: system-design/cdn-caching.md
     - Database: system-design/database.md
-
+- Software Engineering:
+    - General:
+        - Questions: software-engineering/general/questions.md
+    - Golang:
+        - Questions: software-engineering/golang/questions.md
+    - Python:
+        - Questions: software-engineering/python/questions.md
+    - Java:
+        - Questions: software-engineering/java/questions.md
+    - JavaScript:
+        - Questions: software-engineering/javascript/questions.md
 
 - Contribute: CONTRIBUTING.md
 - Code of Conduct: CODE_OF_CONDUCT.md
