@@ -75,26 +75,14 @@ markdown_extensions:
 
 nav:
 - Home: index.md
-- Linux:
-    - Command-line:
-        - Alias: command-line/alias-command.md
-        - Cat: command-line/cat-command.md
-        - Change Directory: command-line/cd.md
-        - Copy: command-line/cp.md
-        - Exit: command-line/exit-command.md
-        - Find: command-line/find-command.md
-        - Help: command-line/help-command.md
-        - History: command-line/history-command.md
-        - Less: command-line/less-command.md
-        - List: command-line/ls-command.md
-        - Man: command-line/man-command.md
-        - Mkdir: command-line/mkdir-command.md
-        - Move: command-line/mv-command.md
-        - Pwd: command-line/pwd.md
-        - Remove: command-line/rm.md
-        - Shell: command-line/the-shell.md
-        - Touch: command-line/touch-command.md
-        - What is: command-line/whatis-command.md
+- DevOps:
+    - Linux:
+        - Questions: devops/linux/questions.md
+    - Networking:
+        - Questions: devops/networking/questions.md
+- System Design:
+    - CDN & Caching: system-design/cdn-caching.md
+    - Database: system-design/database.md
 
 
 - Contribute: CONTRIBUTING.md
